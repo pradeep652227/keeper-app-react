@@ -1,0 +1,51 @@
+/*General Styles*/
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+/*font-family: 'McLaren', cursive;
+font-family: 'Montserrat', sans-serif; */
+
+/*heading*/
+h1{
+    font-family: 'McLaren', cursive;
+    padding:10px;
+    background-color: #ffa500d1;
+    color:#fff;
+    font-weight: 500;
+    box-shadow: 3px 0 6px #000;
+    margin-bottom:15px;
+}
+
+/*Content*/
+.mid-content{
+    max-width:1400px;
+    margin:0 auto;
+}
+.head-5{
+    font-size:1.3rem;
+}
+
+.note{
+    display: inline-block;
+    border:1px solid black;
+    border-radius:10px;
+    box-shadow: 0px 0 0px 1px #000;
+    width:20%;
+    margin-right:10px;
+    padding:20px;
+}
+.note p{
+    margin-top:5px;
+}
+
+/*footer*/
+footer{
+    position: fixed;
+    bottom:5px;
+    left:50%;
+}

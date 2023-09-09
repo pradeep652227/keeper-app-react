@@ -1,0 +1,35 @@
+.add-note-box {
+  margin-bottom: 15px;
+  position: relative;
+  max-width: 100%;
+}
+input,
+textarea {
+  width: 25rem;
+  padding: 5px;
+  display: block;
+  margin: auto;
+  border: 1px solid grey;
+}
+input {
+  font-size: 1.2rem;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: none;
+}
+textarea {
+    font-size:1.1rem;
+  border-top: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+button {
+  position: absolute;
+  bottom: -17px;
+  right: 45%;
+  border-radius: 50%;
+  font-size: 1rem;
+  width: 50px;
+  height: 50px;
+}
